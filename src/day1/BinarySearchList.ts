@@ -1,10 +1,10 @@
 export default function bs_list(haystack: number[], needle: number): boolean {
-    let low = 0;
-    let high = haystack.length;
+    let low :number = 0;
+    let high :number = haystack.length;
 
     do {
-        const middle = Math.floor(low + (high - low) / 2);
-        const value = haystack[middle];
+        const middle :number = Math.floor(low + (high - low) / 2);
+        const value :number = haystack[middle];
 
         if (value === needle) {
             return true;
