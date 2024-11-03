@@ -8,6 +8,8 @@ test("two crystal balls", function () {
         data[i] = true;
     }
 
+    console.log(idx);
+
     expect(two_crystal_balls(data)).toEqual(idx);
     expect(two_crystal_balls(new Array(821).fill(false))).toEqual(-1);
 });

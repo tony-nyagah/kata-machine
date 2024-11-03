@@ -1,4 +1,4 @@
-package TwoCrystalballs
+package search
 
 import (
 	"math"
